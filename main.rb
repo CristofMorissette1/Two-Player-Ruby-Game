@@ -24,7 +24,7 @@ class Game
 			    player = @player2
             end
         
-		    random = rand(5)                               #calling a random integer
+		    random = rand(9)                               #calling a random integer
 		    p "It is  #{player.name}'s turn!"
 		    puts $questions[random][:question]
 		    input = gets.chomp
